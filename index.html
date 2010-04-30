@@ -43,7 +43,11 @@ body{
     -moz-border-radius:7px;
     border-radius:7px;
 }
- 
+
+.category{
+  position:relative;
+}
+
 .category .cat_title {
     font-size:80%;
     position:relative;
@@ -55,6 +59,25 @@ body{
 
 .category .project{
   margin-left:20px;
+}
+
+.project:hover + .line{
+  height:14px;
+  top:23px;
+}
+
+.project_wrap{
+  position:relative;
+}
+
+.line {
+  position:absolute;
+  height:6px;
+  width:100%;
+  left:0px;
+  top:27px;
+  background-color: #C8DCF4;
+  z-index:-1;
 }
 
 .project:hover{
@@ -88,12 +111,21 @@ body{
         <div style='height:1%;'></div>
         <div id="cat_public" class='category'>
           <div class="cat_title">public:</div>
-          <div class='project'><a style="background-image: url(github.png)" href='http://github.com/danielbeardsley'></a></div>
-          <div class='project'><a style="background-image: url(github_gist.png)" href='http://gist.github.com/danielbeardsley'></a></div>
+          <div class='project_wrap'>
+            <div class='project'><a style="background-image: url(github.png)" href='http://github.com/danielbeardsley'></a></div>
+            <div class="line"></div>
+          </div>
+          <div class='project_wrap'>
+            <div class='project'><a style="background-image: url(github_gist.png)" href='http://gist.github.com/danielbeardsley'></a></div>
+            <div class="line"></div>
+          </div>
         </div>
         <div id="cat_private" class='category'>
           <div class="cat_title">private:</div>
-          <div class='project'><a style="background-image: url(wikiwalki.png)" href='http://www.wikiwalki.com'></a></div>
+          <div class='project_wrap'>
+            <div class='project'><a style="background-image: url(wikiwalki.png)" href='http://www.wikiwalki.com'></a></div>
+            <div class="line"></div>
+          </div>
         </div>
     </div>
     
