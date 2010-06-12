@@ -25,6 +25,23 @@ body{
   padding-right:200px;
 }
 
+#image_wrap{
+  position:absolute;
+  top:0px;
+  width:100%;
+  height:200px;
+}
+
+#image:hover + .line{
+  height:14px;
+  top:67px;
+}
+
+#image_wrap .line{
+  top:70px;
+}
+
+
 #image{
   position:absolute;
   right:5px;
@@ -38,10 +55,8 @@ body{
 }
 
 #divider{
-    margin:1% 0px;
     position:relative;
-    height:3px;
-    background:#C8DCF4;
+    height:20px;
 }
 
 #bio{
@@ -142,7 +157,10 @@ a img{
   </head>
   <body >
     <div id="main">
+      <div id="image_wrap">
       <div id="image"><img src="portrait.jpg"/></div>
+      <div class="line"></div>
+      </div>
       <div id="header">
         Daniel S. Beardsley
         <div id='divider'></div>
