@@ -13,6 +13,6 @@
 		<title>Availability of Daniel Beardsley</title>
 	</head>
 	<body>
-		<iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=7b1q30lp77ojnf4hoqjnbh26mg%40group.calendar.google.com&amp;color=%23060D5E&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		<iframe src="http://www.google.com/calendar/embed?src=7b1q30lp77ojnf4hoqjnbh26mg%40group.calendar.google.com&ctz=America/Los_Angeles&pvttk=c84890c83d758cc8c4718113734b389b" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
 	</body>
 </html>
