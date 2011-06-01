@@ -1,5 +1,5 @@
 body{
-	margin: 0px;
+	margin: 0 0 40px 0;
 	font-family: Tahoma;
 	font-size:150%;
 	letter-spacing: 0.1em;
@@ -9,8 +9,7 @@ body{
 }
  
 #main{
-	margin:0px;
-	margin-top:40px;
+	margin:40px 0 0 0;
 	text-align:center;
 }
 
@@ -158,4 +157,9 @@ a img{
 	font-family:Verdana;
 	font-weight: normal;
 	cursor:pointer;
+}
+
+#powered_by{
+	font-size:16px;
+	letter-spacing:normal;
 }
